@@ -1,4 +1,4 @@
-print("Name: Mugilan Y | Roll No: 23BAD068")
+print("Name: Vijey R S | Roll No: 23BAD126")
 
 library(ggplot2)
 library(dplyr)
@@ -31,5 +31,6 @@ ggplot(heatmap_data, aes(x = Month, y = Product_Category, fill = Sales_Count)) +
   scale_fill_gradient(low = "lightblue", high = "darkblue") +
   labs(title = "Heatmap of Monthly Sales Intensity", fill = "Sales") +
   theme_minimal()
+
 
 
