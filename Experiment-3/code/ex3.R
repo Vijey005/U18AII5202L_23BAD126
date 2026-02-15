@@ -1,4 +1,4 @@
-print("Name: Mugilan Y | Roll No: 23BAD068")
+print("Name: Vijey R S | Roll No: 23BAD126")
 
 library(ggplot2)
 library(GGally)
@@ -22,5 +22,6 @@ print(plot)
 print("Correlation Matrix:")
 cor_matrix <- cor(data[, c("Age", "BMI", "Blood_Pressure", "Glucose_Level")])
 print(cor_matrix)
+
 
 
