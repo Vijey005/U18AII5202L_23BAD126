@@ -1,4 +1,4 @@
-print("Name: Mugilan Y | Roll No: 23BAD068")
+print("Name: Vijey R S | Roll No: 23BAD126")
 
 library(ggplot2)
 library(GGally)
@@ -38,3 +38,4 @@ ggplot(df, aes(x = Sales, y = Profit, color = Customer_Segment)) +
     y = "Profit"
   ) +
   theme_bw()
+
