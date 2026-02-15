@@ -1,4 +1,4 @@
-print("Name: Mugilan Y | Roll No: 23BAD068")
+print("Name: Vijey R S | Roll No: 23BAD126")
 
 library(ggplot2)
 library(dplyr)
@@ -32,4 +32,5 @@ grade_counts <- df %>% count(Final_Grade)
 ggplot(grade_counts, aes(x = "", y = n, fill = Final_Grade)) +
   geom_bar(stat = "identity") + coord_polar("y") +
   theme_void() + 
+
   labs(title = "Final Grade Distribution")
