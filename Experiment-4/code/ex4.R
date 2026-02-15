@@ -1,4 +1,4 @@
-print("Name: Mugilan Y | Roll No: 23BAD068")
+print("Name: Vijey R S | Roll No: 23BAD126")
 
 library(ggplot2)
 library(dplyr)
@@ -32,5 +32,6 @@ plot <- ggplot(accident_summary, aes(x = Location,
   theme(plot.title = element_text(size = 14, face = "bold"))
 
 print(plot)
+
 
 
